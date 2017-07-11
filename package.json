@@ -1,0 +1,27 @@
+{
+  "name": "infinity-arkanoid",
+  "version": "1.0.0",
+  "description": "infinity-arkanoid",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:senaev/infinity-arkanoid.git"
+  },
+  "keywords": [],
+  "author": "Andrey Senaev <gsacryfice@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senaev/infinity-arkanoid/issues"
+  },
+  "homepage": "https://github.com/senaev/infinity-arkanoid#readme",
+  "devDependencies": {
+    "typescript": "2.4.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
