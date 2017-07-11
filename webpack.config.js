@@ -4,10 +4,11 @@ module.exports = {
     entry: './src/index.ts',
     output: {
         filename: 'index.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/dist/'
     },
     resolve: {
-        extensions: ['.js', '.ts']
+        extensions: ['.js', '.ts', '.tsx']
     },
     module: {
         loaders: [
@@ -27,5 +28,5 @@ module.exports = {
                 ]
             }
         ]
-    },
+    }
 };
