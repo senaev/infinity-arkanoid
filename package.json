@@ -5,7 +5,7 @@
   "main": "./src/index.js",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack-dev-server"
+    "watch": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,9 @@
     "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
+    "@types/es6-promise": "0.0.32",
+    "@types/react": "15.0.6",
+    "@types/react-dom": "0.14.22",
     "awesome-typescript-loader": "0.17.0",
     "babel-core": "6.9.1",
     "babel-loader": "6.2.4",
